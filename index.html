@@ -57,7 +57,7 @@
 	<body>
 		<div id="flashContent">
 			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="Title name that will appear on tab" align="middle">
-				<param name="movie" value="/Bloons-Tower-Defense-5.swf" />
+				<param name="movie" value="/AirLoader.swf" />
 				<param name="quality" value="high" />
 				<param name="bgcolor" value="#000000" />
 				<param name="play" value="true" />
@@ -69,8 +69,8 @@
 				<param name="salign" value="" />
 				<param name="allowScriptAccess" value="sameDomain" />
 				<!--[if !IE]>-->
-				<object type="application/x-shockwave-flash" data="/Bloons-Tower-Defense-5.swf" width="100%" height="100%">
-					<param name="movie" value="/Bloons-Tower-Defense-5.swf" />
+				<object type="application/x-shockwave-flash" data="/AirLoader.swf" width="100%" height="100%">
+					<param name="movie" value="/AirLoader.swf" />
 					<param name="quality" value="high" />
 					<param name="bgcolor" value="#000000" />
 					<param name="play" value="true" />
@@ -98,7 +98,7 @@ import flash.events.Event;
 
 function startLoad() {
     var mLoader:Loader = new Loader();
-    var mRequest:URLRequest = new URLRequest("/Bloons-Tower-Defense-5.swf");
+    var mRequest:URLRequest = new URLRequest("/AirLoader.swf");
     mLoader.contentLoaderInfo.addEventListener(Event.COMPLETE, onCompleteHandler);
     mLoader.load(mRequest);
 }
